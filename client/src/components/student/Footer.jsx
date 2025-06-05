@@ -4,15 +4,18 @@ import { assets } from '../../assets/assets';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 md:px-36 text-left w-full mt-10">
-      <div className="flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-32 py-10 border-b border-white/30">
+  <div className="flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-32 py-10 border-b border-white/30">
 
-        <div className="flex flex-col md:items-start items-center w-full">
-          <img src={assets.logo} alt="logo" />
-          <p className="text-lg font-semibold">easyStudy</p>
-          <p className="mt-6 text-center md:text-left text-sm text-white/80">
-            We focus on giving you the best courses from top educators. Our main goal is your success! Thanks for your loyalty and contribution
-          </p>
-        </div>
+    <div className="flex flex-col md:items-start items-center w-full">
+      <div className="flex items-center gap-2">
+        <img src={assets.logo} alt="logo" />
+        <p className="text-lg font-semibold text-white">easyStudy</p>
+      </div>
+      
+      <p className="mt-6 text-center md:text-left text-sm text-white/80">
+        We focus on giving you the best courses from top educators. Our main goal is your success! Thanks for your loyalty and contribution
+      </p>
+    </div>
 
         <div className="flex flex-col md:items-start items-center w-full">
           <h2 className="font-semibold text-white mb-5">Company</h2>
