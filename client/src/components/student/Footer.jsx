@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="flex flex-col md:items-start items-center w-full">
       <div className="flex items-center gap-2">
         <img src={assets.logo} alt="logo" />
-        <p className="text-lg font-semibold text-white">easyStudy</p>
+        <p className="text-xl font-semibold text-white">easyStudy</p>
       </div>
       
       <p className="mt-6 text-center md:text-left text-sm text-white/80">
