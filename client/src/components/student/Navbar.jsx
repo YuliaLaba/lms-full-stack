@@ -43,6 +43,7 @@ const Navbar = () => {
   return (
     <div className={`flex items-center justify-between px-4 sm:px-5 md:px-10 lg:px-20 border-b border-gray-500 py-4 ${isCoursesListPage ? 'bg-white' : 'bg-cyan-100/70'}`}>
       <img onClick={() => navigate('/')} src={assets.logo} alt="Logo" className="w-10 lg:w-15 cursor-pointer" />
+      <h2 class="text-lg">easyStudy</h2>
       <div className="md:flex hidden items-center gap-5 text-gray-500">
         <div className="flex items-center gap-5">
           {
