@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:items-start items-center w-full">
           <img src={assets.logo_dark} alt="logo" />
           <p className="mt-6 text-center md:text-left text-sm text-white/80">
-            We focus on giving you the best courses from top educators. Our main goal is your success!
+            We focus on giving you the best courses from top educators. Our main goal is your success! Thanks for your loyalty and contribution
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-white/60">
-        Copyright 2024 © GreatStack. All Right Reserved.
+        Copyright 2025 © Yuliia Laba IP-21-3. All Right Reserved.
       </p>
     </footer>
   );
