@@ -36,7 +36,7 @@ const Footer = () => {
 
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-white/60">
-        Copyright 2025 © Yuliia Laba IP-21-3. All Right Reserved.
+        Copyright 2025 © Yuliia Laba. All Right Reserved.
       </p>
     </footer>
   );
