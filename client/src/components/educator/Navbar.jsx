@@ -11,8 +11,13 @@ const Navbar = ({ bgColor }) => {
 
   return isEducator && user && (
     <div className={`flex items-center justify-between px-4 md:px-8 border-b border-gray-500 py-3 ${bgColor}`}>
+     
       <Link to="/">
-        <img src={assets.logo} alt="Logo" className="w-28 lg:w-32" />
+      <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
+    <img src={assets.logo} alt="Logo" className="w-10 lg:w-15" />
+    <h2 className="text-2xl font-semibold">easyStudy</h2>
+  </div>
+       {/*<img src={assets.logo} alt="Logo" className="w-28 lg:w-32" />*/}
       </Link>
       <div className="flex items-center gap-5 text-gray-500 relative">
         <p>Hi! {user.fullName}</p>
