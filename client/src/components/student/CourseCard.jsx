@@ -12,7 +12,6 @@ const CourseCard = ({ course }) => {
       to={`/course/${course._id}`}
       className="border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200 bg-white"
     >
-      {/* Заставка з фіксованою висотою */}
       <div className="w-full h-48 overflow-hidden">
         <img
           src={course.courseThumbnail}
