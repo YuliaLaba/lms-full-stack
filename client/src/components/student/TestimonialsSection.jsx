@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
       </p>
 
       {/* Updated grid with proper padding and responsive layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-14">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-14">
         {dummyTestimonial.map((testimonial, index) => (
           <div
             key={index}
